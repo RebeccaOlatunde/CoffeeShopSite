@@ -1,5 +1,6 @@
 body {
     font-family: "Open Sans", sans-serif;
+    background-image: url("banner.gif");
 }
 
 h1, h2, h3 {
@@ -8,26 +9,28 @@ h1, h2, h3 {
 
 h2 {
     color: #3046C5;
+    font-family: cursive;
 }
 
 header h2 {
-    color: brown;
+    color: #B19A7A;
 }
 
 footer {
-    background-image: linear-gradient(#CEC8FF, white);
-    padding: 20px 0;
+   padding: 20px 0;
 }
 
 .navbar {
-     background-color: brown;
+     background-color:#6F4E37;
+     color: white;
 }
 
+
 .jumbotron {
-    padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
-    color: white;
     margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #51312E, #654335, #6F4E37);
+    color: white; 
 }
 
 .row-content {
@@ -37,7 +40,7 @@ footer {
 }
 
 .site-footer{
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: #6F4E37;
     padding: 20px 0;   
 }
 
@@ -54,3 +57,4 @@ a, a:hover {
 .carousel {
     border: solid #5637DD;
 }
+
