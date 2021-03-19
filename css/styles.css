@@ -1,15 +1,32 @@
 body {
     font-family: "Open Sans", sans-serif;
-    background-image: url("banner.gif");
+    background-image: url("photo6.jpg");
 }
 
-h1, h2, h3 {
+h2, h3 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h2 {
+h1{
+    font-family:cursive;
+    color:White;
+}
+
+.address {
     color: #3046C5;
     font-family: cursive;
+
+}
+
+.croissant{
+    padding-left: 150px;
+}
+.hp-container{
+    padding-left: 150px;
+}
+
+.menu-btn{
+    border: none;
 }
 
 header h2 {
@@ -56,5 +73,10 @@ a, a:hover {
 
 .carousel {
     border: solid #5637DD;
+}
+
+.container{
+  background-image:url("main-banner.jpg") ;  
+  background-size: cover;
 }
 
