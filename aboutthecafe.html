@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- endbuild -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <title>SB Cafe and Bake Shop</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="30" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nucampNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html"><i class="fa fa-info fa-lg"></i>Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="orderonline.html"><i class="fa fa-list fa-lg"></i>Order Online</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutthecafe.html"><i class="fa fa-address-card fa-lg"></i> About the Cafe</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container cafe-photo">
+        <img src="img/photo6.jpg" alt="cafe photo">
+    </div>
+
+    <div class="about-section">
+        <h1>About Our Cafe</h1>
+        <p>Some text about who we are and what we do.</p>
+        <p>Resize the browser window to see that this page is responsive by the way.Resize the browser window to see that this page is responsive by the way.Resize the browser window to see that this page is responsive by the way.Resize the browser window to see that this page is responsive by the way.Resize the browser window to see that this page is responsive by the way.Resize the browser window to see that this page is responsive by the way.Resize the browser window to see that this page is responsive by the way.Resize the browser window to see that this page is responsive by the way.Resize the browser window to see that this page is responsive by the way.</p>
+      </div>
+      
+      <h2 style="text-align:center">Our Team</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="img/RebeccaO.jpeg" alt="Rebecca" style="width:100%">
+            <div class="container">
+              <h2>Rebecca Olatunde</h2>
+              <p class="title">CEO & Founder</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>rebecca@sbcoffee.com</p>
+              <p><button class="aboutus-button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="img/" alt="Dorothy" style="width:100%">
+            <div class="container">
+              <h2>Dorothy Sonde</h2>
+              <p class="title">Regional Director</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>dorothy@sbcoffee.com</p>
+              <p><button class="aboutus-button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="/w3images/team3.jpg" alt="Jacob" style="width:100%">
+            <div class="container">
+              <h2>Jacob John</h2>
+              <p class="title">Menu Creator</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>jacob@sbcoffee.com</p>
+              <p><button class="aboutus-button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
+    <script>
+       $(function() {
+           $(".carousel").carousel( { interval: 2000, pause:"false" } );
+           $("#carouselPause").click(function(){
+               $(".carousel").carousel("pause");
+           });
+           $("#carouselPlay").click(function(){
+               $(".carousel").carousel("cycle");
+           });
+       });
+   </script>
+   
+</body>
+   
+</html>
